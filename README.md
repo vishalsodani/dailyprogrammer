@@ -1,2 +1,2 @@
 # dailyprogrammer
-Solving porblems from subreddit dailyporgrammer
+Solving problemss from subreddit dailyprogrammer - learning Rust
