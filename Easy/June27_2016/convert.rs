@@ -5,11 +5,11 @@ fn convert(mut input:String){
 
     if from == 'r' && to == 'd' {
         let x =  number * ( 180.0 / 3.1416) ;
-        println!("{:?}", x );
+        println!("{0}{1}", x, to );
     }
     else if from == 'd' && to == 'r' {
         let x = number * ( 3.1416 / 180.0 ) ;
-        println!("{:?}", x );
+        println!("{0}{1}", x, to );
     }
 
 }
