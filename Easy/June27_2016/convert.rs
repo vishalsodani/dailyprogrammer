@@ -6,9 +6,9 @@ fn convert(input:&str){
 	let result:Option<f32> = match conversion_direction {
 		"rd" => Some(number * ( 180.0 / 3.1416)) ,
 		"dr" => Some(number * ( 3.1416 / 180.0 )) ,
-		"fc" => Some(( number - 32.0 ) * ( 5.0 / 9.0 )) ,
-		"cf" => Some(( number * ( 9.0 / 5.0 )) + 32.0 ) ,
-		"kc" => Some( number - 273.15 ) ,
+		"fc" => Some((number - 32.0 ) * ( 5.0 / 9.0)) ,
+		"cf" => Some((number * ( 9.0 / 5.0 )) + 32.0) ,
+		"kc" => Some(number - 273.15) ,
 		_ => None ,
 	} ;
 
